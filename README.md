@@ -21,7 +21,18 @@ The objetive of this project is to answer the following questions:
   * Even when we obtained the data from *kaggle* it's important to know that this type of data is usually obtained by analog sensors that take samples of signals that come from the outside world, such as time, temperature, sound, light (they do not have a fixed value). These sensors are connected to a device that does the conversion of analog values to computational values (with which we can work).<br>
 However, the precise moment of obtaining data from us would be from our device, with which we download and begin the analysis of the previously mentioned dataset.
 
-* Data Cleaning
+* Data Cleaning:
+  * We used **Apache Spark** due to its speed, its interactive console, that allows us to manage and run its APIS in Python. On the other hand, our idea was to work with more than one cluster and, as an advantage, it allows to manipulate the data quickly and tolerates failures. However, for many reasons, we only worked with one cluster. 
 
+* Data Storage:
+  * We decided to used **Mongo DB** as our main source to storage the dataset. <br>
+  We chose this database tool because was the one we are getting to work with. 
+  Other reasons were the *Multi-platform, High performance and Availability, and last the Easy Scalability*
 
-* Data Storage
+* Analytical Modeling: 
+  * The main objetive was to develop and implement a model saw in the course, in this case we decided to use a Random Forest. 
+  
+* Data Analysis and Visualization:
+  * As our last part, after develop the model and pre process the whole data we did an analyze to answer the questions already present using visualizations with *Bokeh*
+  
+  
