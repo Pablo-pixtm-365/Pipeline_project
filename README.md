@@ -36,3 +36,8 @@ However, the precise moment of obtaining data from us would be from our device, 
   * As our last part, after develop the model and pre process the whole data we did an analyze to answer the questions already present using visualizations with *Bokeh*
 
 <h3>Data Cleaning</h3>
+
+As we said before we worked with using *Pyspark* (Belongs to Spark) in python to deal with the Cleaning Process. <br>
+Pyspark has two development modes, one is the local mode and the other is the cluster mode. Since what we did was a **demonstration**, we made use of the local mode. <br> 
+The first step for our predictive model is cleaning the data. For this, as previously mentioned, pyspark was used, among other libraries such as pyspark.sql. from spark.sql sparksession had to be imported because it provides a single-entry point to interact with the Data frames in spark and is also used to make each record and execute SQL queries.<br>
+To configure a session in pyspark you have to define how many cores the information will be processed in, in our case we used two, we also give the application a name, the name we gave it was 'quake_etl', and we also set the configuration to connect the database to mongodb later, and finally the getorCreate () method is used. 
