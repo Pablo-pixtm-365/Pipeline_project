@@ -104,3 +104,20 @@ The reasons were:
 * It is Shareable, the plots, dashboards, and apps can be published in Jupyter notebooks.
 * We use the v (Big data) of visualization, the representation of the data with graphics and the explain of our questions.
 
+<h3>Results:</h3>
+
+**Note**: To see the result download the html dashoard [File](https://github.com/Pablo169-Duarte-Tzuc/Pipeline_project/blob/master/dashboard.html)
+
+* What are the most likely places where an earthquake could occur in 2017?: See the places on the map
+* Is there a big difference in the number of earthquakes that have occurred during the years from 1965 to 2016?: There not exist a big differences over the years, the unique one with a big difference over the years is 2011 but most of them stay in similar ranges.
+* Are there any incremental changes in the average magnitude of earthquakes over the years? There no exist a big difference over the average of Earhquakes, all of them stay in an range of 5.5 to 6.5 approximately.
+
+<h3>The Five V of Big Data</h3>
+
+Our project tried to achieve the 5 V of big data, which are explained here and justified. 
+
+* Volume:
+* Velocity:
+* Variety:
+* Veracity:
+* Value:
