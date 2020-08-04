@@ -33,6 +33,7 @@ However, the precise moment of obtaining data from us would be from our device, 
 
 * Data Cleaning:
   * We used **Apache Spark** due to its speed, its interactive console, that allows us to manage and run its APIS in Python. On the other hand, our idea was to work with more than one cluster and, as an advantage, it allows to manipulate the data quickly and tolerates failures. However, for many reasons, we only worked with one cluster. 
+![spark](https://raw.githubusercontent.com/Pablo169-Duarte-Tzuc/Pipeline_project/master/images/pyspark.jpg)
 
 * Data Storage:
   * We decided to used **Mongo DB** as our main source to storage the dataset. <br>
@@ -49,6 +50,8 @@ However, the precise moment of obtaining data from us would be from our device, 
 
 As we said before we worked with using *Pyspark* (Belongs to Spark) in python to deal with the Cleaning Process. <br>
 Pyspark has two development modes, one is the *local mode and the other is the cluster mode*. Since what we did was a **demonstration**, we made use of the local mode. <br> 
+
+![spark2](https://raw.githubusercontent.com/Pablo169-Duarte-Tzuc/Pipeline_project/master/images/spark_operations.jpg)
 
 The first step for our predictive model is cleaning the data. <br>
 For this, as previously mentioned, pyspark was used, among other libraries such as *pyspark.sql. from spark.sql*, *sparksession* had to be imported because it provides a single-entry point to interact with the Data frames in spark and is also used to make each record and execute SQL queries.<br>
