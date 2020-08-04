@@ -58,3 +58,25 @@ Then, something similar was done with a different column, the average of quakes 
 The last thing that was done to finish processing the information was to eliminate all null values because when you make a predictive model you cannot work with null values.
 
 After finished the whole cleaning process, the next step was to storage the data, which we storaged in MongoDB and after that we used for the model. 
+
+<h3>Modeling and Prediction</h3>
+
+The most important part in our model was chose the correct model according to our requirements.
+
+With our model we looked to predict the magnitude of the 2017 earthquakes, the magnitude being a continuous quantitative variable, that is, it takes values along a continuum, in a whole range of values such as the speed at which it goes to a train. 
+
+In this case we use ml.regression as show the flow of the picture: 
+
+* Insertar
+
+Why do we used Random Forest Regressor? 
+*	The models on the left side require a lot of work in advance to ensure that your assumptions are fulfilled.
+*	The models on the left side can be powerful if used properly but can be counter prudent.
+*	The models on the right side are based on trees that have the ability to easily handle things like missing and categorical values from the get-go.
+* Instertar foto
+*	In the image we can see that we have many decision trees and each one trains a sample of data to avoid overfitting.
+*	When the time comes to predict a value, it runs through the decision trees and its responses merge to create a more powerful prediction.
+
+*Some important point to take in count in our predective model*
+*	The data is divided into test and training sets, this must be done before applying feature transformations.
+*	In our case we have a data set of 80% (df_training) and another set of 20% (df_test).
