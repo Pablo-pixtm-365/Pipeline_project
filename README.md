@@ -18,7 +18,7 @@ The objetive of this project is to answer the following questions:
   We used this platform as our way to get the data, nevertheless, the original data belongs to *The National Earthquake Information Center* 
   
 * Data Acquisition:
- * Even when we obtained the data from *kaggle* it's important to know that this type of data is usually obtained by analog sensors that take samples of signals that come from the outside world, such as time, temperature, sound, light (they do not have a fixed value). These sensors are connected to a device that does the conversion of analog values to computational values (with which we can work).<br>
+  * Even when we obtained the data from *kaggle* it's important to know that this type of data is usually obtained by analog sensors that take samples of signals that come from the outside world, such as time, temperature, sound, light (they do not have a fixed value). These sensors are connected to a device that does the conversion of analog values to computational values (with which we can work).<br>
 However, the precise moment of obtaining data from us would be from our device, with which we download and begin the analysis of the previously mentioned dataset.
 
 * Data Cleaning
