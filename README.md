@@ -12,6 +12,7 @@ The objetive of this project is to answer the following questions:
 * Are there any incremental changes in the average magnitude of earthquakes over the years?
 <h2>Justification</h2>
 <h3> Pipeline</h3>
+
 * Data Source: 
 
 * Data Acquisition:
