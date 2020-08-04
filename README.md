@@ -35,7 +35,7 @@ However, the precise moment of obtaining data from us would be from our device, 
 * Data Analysis and Visualization:
   * As our last part, after develop the model and pre process the whole data we did an analyze to answer the questions already present using visualizations with *Bokeh*
 
-<h3>Data Cleaning</h3>
+<h3>Data Cleaning and Storage</h3>
 
 As we said before we worked with using *Pyspark* (Belongs to Spark) in python to deal with the Cleaning Process. <br>
 Pyspark has two development modes, one is the *local mode and the other is the cluster mode*. Since what we did was a **demonstration**, we made use of the local mode. <br> 
@@ -56,3 +56,5 @@ We used print schema to see which columns we had, and which ones still needed to
 Then, something similar was done with a different column, the average of quakes magnitudes per year was obtained and finally a join was used to join the column 'years', 'counts' the averages and the maximums of the magnitudes. <br>
 
 The last thing that was done to finish processing the information was to eliminate all null values because when you make a predictive model you cannot work with null values.
+
+After finished the whole cleaning process, the next step was to storage the data, which we storaged in MongoDB and after that we used for the model. 
