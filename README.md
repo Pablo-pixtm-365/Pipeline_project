@@ -14,9 +14,12 @@ The objetive of this project is to answer the following questions:
 <h3> Pipeline</h3>
 
 * Data Source: 
-
+  * We took the useful earthquakes'data set (1965-2016) from **Kaggle**. <br>
+  We use 
 * Data Acquisition:
 
+
 * Data Cleaning
+
 
 * Data Storage
