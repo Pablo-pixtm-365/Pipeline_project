@@ -39,13 +39,20 @@ However, the precise moment of obtaining data from us would be from our device, 
 
 As we said before we worked with using *Pyspark* (Belongs to Spark) in python to deal with the Cleaning Process. <br>
 Pyspark has two development modes, one is the *local mode and the other is the cluster mode*. Since what we did was a **demonstration**, we made use of the local mode. <br> 
+
 The first step for our predictive model is cleaning the data. <br>
 For this, as previously mentioned, pyspark was used, among other libraries such as *pyspark.sql. from spark.sql*, *sparksession* had to be imported because it provides a single-entry point to interact with the Data frames in spark and is also used to make each record and execute SQL queries.<br>
+
 To configure a session in pyspark you have to define how many cores the information will be processed in, in our case we used two, we also give the application a name, the name we gave it was '*quake_etl*', and we also set the configuration to connect the database to mongodb later, and finally the getorCreate () method is used. <br>
 Then a Data frame was created. To create a dataframe you can use the createdataframe () method or you can also create it by reading a document in csv, json or txt format, in our case we loaded our database that was contained in a csv.<br>
+
 After the data has been loaded we use a show () which is an action in pyspark to see the form of our information and we use describe () to see what type of data is contained in the data set and as we could see we only had strings. <br>
+
 We started by removing the unnecessary columns and the drop transformation was used for doing so. Then a new column was created to store only the years since we had a date column that included the month and the day as well and we needed the years to be separated and at the same time the string type was changed to a timestamp.<br>
 The frequency of each year was then found with a groupBy, and count method, and the column was renamed as 'counts'. <br>
+
 We used print schema to see which columns we had, and which ones still needed to be changed to a float type. After the string types were changed to double, a new column was created containing the highest magnitudes that occurred in each year. <br>
+
 Then, something similar was done with a different column, the average of quakes magnitudes per year was obtained and finally a join was used to join the column 'years', 'counts' the averages and the maximums of the magnitudes. <br>
+
 The last thing that was done to finish processing the information was to eliminate all null values because when you make a predictive model you cannot work with null values.
