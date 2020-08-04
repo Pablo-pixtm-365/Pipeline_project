@@ -80,3 +80,14 @@ Why do we used Random Forest Regressor?
 *Some important point to take in count in our predective model*
 *	The data is divided into test and training sets, this must be done before applying feature transformations.
 *	In our case we have a data set of 80% (df_training) and another set of 20% (df_test).
+<h3>Data Analyze and Vasualization</h3>
+
+In our case, we decided to use Bokeh as the method to achieve the visualization. 
+The reasons were: 
+*  It is an interactive visualization library for modern web browser.
+* It provides elegant, concise construction of versatile graphics, and affords high-performance interactive over large or streaming datasets.
+* It's flexible, it makes it simple to create common plot, but also handle custom o specialized use-cases. 
+* It provides tools and widgets let you probe “what if” scenarios.
+* It is Shareable, the plots, dashboards, and apps can be published in Jupyter notebooks.
+* We use the v (Big data) of visualization, the representation of the data with graphics and the explain of our questions.
+
