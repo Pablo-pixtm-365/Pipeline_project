@@ -11,8 +11,11 @@ The objetive of this project is to answer the following questions:
 * Is there a big difference in the number of earthquakes that have occurred during the years from 1965 to 2016?
 * Are there any incremental changes in the average magnitude of earthquakes over the years?
 <h2>Justification</h2>
+<h3> Pipeline</h3>
+* Data Source: 
 
-* Data Source
 * Data Acquisition:
+
 * Data Cleaning
+
 * Data Storage
