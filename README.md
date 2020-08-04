@@ -80,13 +80,15 @@ With our model we looked to predict the magnitude of the 2017 earthquakes, the m
 
 In this case we use ml.regression as show the flow of the picture: 
 
-* Insertar
+![process](https://raw.githubusercontent.com/Pablo169-Duarte-Tzuc/Pipeline_project/master/images/Captura1.JPG)
 
 Why do we used Random Forest Regressor? 
 *	The models on the left side require a lot of work in advance to ensure that your assumptions are fulfilled.
 *	The models on the left side can be powerful if used properly but can be counter prudent.
 *	The models on the right side are based on trees that have the ability to easily handle things like missing and categorical values from the get-go.
-* Instertar foto
+
+![view](https://github.com/Pablo169-Duarte-Tzuc/Pipeline_project/blob/master/images/Captura3.JPG)
+
 *	In the image we can see that we have many decision trees and each one trains a sample of data to avoid overfitting.
 *	When the time comes to predict a value, it runs through the decision trees and its responses merge to create a more powerful prediction.
 
@@ -116,8 +118,8 @@ The reasons were:
 
 Our project tried to achieve the 5 V of big data, which are explained here and justified. 
 
-* Volume:
-* Velocity:
-* Variety:
-* Veracity:
-* Value:
+* Volume: We achieve this V because even when we work with and small dataset, the original source belongs to the *The National Earthquake Information Center* with and huge amount of data. Neverthelles, in this case we used the dataset to elaborate the model as an project implementation.
+* Velocity: We achieve this V because the amount of data is massive, in this case the sensors used collects a huge amount of data each data, that is increasing. 
+* Variety:  We achieve this V because we worked with Structured data.
+* Veracity:  We achieve this V because belongs to the pre processing process, in this case to look for inconsistencies and uncertainty data. 
+* Value:  We achieve this V doing the model, and using the pre processing, because in the end we were able to get useful information and answer some initial questions. 
