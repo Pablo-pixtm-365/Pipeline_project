@@ -1,5 +1,13 @@
 <h1>Pipeline Project</h1>
 
+<h2>Team Members</h2>
+
+![team](https://raw.githubusercontent.com/Pablo169-Duarte-Tzuc/Pipeline_project/master/images/presentacion1/Diapositiva1.JPG)
+
+<h2>Labor Division</h2>
+
+![division](https://raw.githubusercontent.com/Pablo169-Duarte-Tzuc/Pipeline_project/master/images/presentacion1/Diapositiva2.JPG)
+
 <h2> Introduction</h2>
 
 There exist many ways to work with data, from small data and big data.<br>
@@ -12,6 +20,8 @@ The objetive of this project is to answer the following questions:
 * Are there any incremental changes in the average magnitude of earthquakes over the years?
 <h2>Justification</h2>
 <h3> Pipeline</h3>
+
+[Click here to go to the Pipeline Picture](https://raw.githubusercontent.com/Pablo169-Duarte-Tzuc/Pipeline_project/master/images/pipeline.jpeg)
 
 * Data Source: 
   * We took the useful earthquakes'data set (1965-2016) from **Kaggle**. <br>
