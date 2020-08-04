@@ -34,5 +34,5 @@ However, the precise moment of obtaining data from us would be from our device, 
   
 * Data Analysis and Visualization:
   * As our last part, after develop the model and pre process the whole data we did an analyze to answer the questions already present using visualizations with *Bokeh*
-  
-  
+
+<h3>Data Cleaning</h3>
